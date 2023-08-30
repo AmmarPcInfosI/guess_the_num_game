@@ -5,7 +5,7 @@ void main() {
   Random rnd;
   int min = 0;
   int max = 20;
-  rnd = new Random();
+  rnd =  Random();
   int r = min + rnd.nextInt(max - min);
   print('Welcome to guess the number game');
   print('Guess the Number from 0 to 20 ');
